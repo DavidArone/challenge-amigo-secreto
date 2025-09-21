@@ -44,3 +44,29 @@ function agregarAmigo() {
     // Volvemos a enfocar el cursor en el input para comodidad del usuario
     document.getElementById("txtAmigo").focus();
 }
+
+function sortearAmigo() {
+    // Verificamos si ya no quedan amigos por sortear
+    if (amigosRestantes.length === 0) {
+        // Mostramos mensaje de que el sorteo terminó
+        mostrarSorteado("Todos los amigos ya fueron sorteados. El juego se reiniciará.");
+
+        // Reiniciamos el juego después de 2 segundos automáticamente
+        setTimeout(() => {
+            reiniciarJuego();
+        }, 2000);
+        return; // Cortamos la ejecución aquí
+    }
+
+    // Generamos un número aleatorio según el tamaño de "amigosRestantes"
+    let elegido = generarNumeroRandomRestantes();
+
+    // Tomamos al amigo que corresponde a ese número en la lista
+    let amigoElegido = amigosRestantes[elegido];
+
+    // Mostramos en pantalla quién fue sorteado
+    mostrarSorteado(`El amigo secreto es ${amigoElegido}.`);
+
+    // Eliminamos al amigo sorteado de la lista de restantes para que no vuelva a salir
+    amigosRestantes.splice(elegido, 1);
+}
