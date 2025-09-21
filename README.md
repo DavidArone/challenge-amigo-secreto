@@ -115,6 +115,7 @@ Lo puedes mejorar o configurar.
 ✨ ¡Diviértete sorteando nombres de manera justa y personalizable! ✨
 
 // Link de Imagenes
+
 https://github.com/DavidArone/challenge-amigo-secreto/blob/main/assest-readme/readmepng-1.png?raw=true
 https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/refs/heads/main/assest-readme/readmepng-1.png
 
