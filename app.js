@@ -97,3 +97,21 @@ function validarNombreUnico(amigo) {
 // ===============================
 // Fin funciones de validación
 // ===============================
+
+
+// ===============================
+// Funciones secundarias de apoyo
+// ===============================
+
+// Genera un número aleatorio entre 0 y la cantidad de amigos restantes
+function generarNumeroRandomRestantes() {
+    return Math.floor(Math.random() * amigosRestantes.length);
+}
+
+// Muestra todos los amigos agregados en la lista HTML con id="listaAmigos"
+function mostrarEnLista() {
+    let lista = document.getElementById("listaAmigos");
+    lista.innerHTML = ""; // limpiamos el contenido previo
+    // Recorremos el array de amigos y los agregamos como elementos <li>
+    amigos.forEach(elem => lista.innerHTML += `<li>${elem}</li>`);
+}
