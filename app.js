@@ -1,5 +1,5 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
-let amigos = []
+// Lista principal donde se guardan todos los amigos agregados
+let amigos = [];
 // Lista auxiliar que se usará para saber qué amigos aún no han sido sorteados
 let amigosRestantes = [];
 
@@ -139,3 +139,6 @@ function reiniciarJuego() {
     document.getElementById("txtAmigo").value = "";
     document.getElementById("txtAmigo").focus();
 }
+// ===============================
+// Fin funciones secundarias
+// ===============================
