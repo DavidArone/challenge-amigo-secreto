@@ -70,3 +70,17 @@ function sortearAmigo() {
     // Eliminamos al amigo sorteado de la lista de restantes para que no vuelva a salir
     amigosRestantes.splice(elegido, 1);
 }
+// ===============================
+// Fin funciones principales
+// ===============================
+
+
+// ===============================
+// Funciones de validación
+// ===============================
+
+// Da formato a un nombre: elimina espacios y pone la primera letra en mayúscula
+function darFormatoAmigo(amigo) {
+    amigo = amigo.trim(); // eliminamos espacios extra al inicio y al final
+    return amigo[0].toUpperCase() + amigo.substring(1); // primera letra mayúscula + resto igual
+}
