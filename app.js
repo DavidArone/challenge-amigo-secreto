@@ -115,3 +115,14 @@ function mostrarEnLista() {
     // Recorremos el array de amigos y los agregamos como elementos <li>
     amigos.forEach(elem => lista.innerHTML += `<li>${elem}</li>`);
 }
+
+// Muestra el resultado del sorteo en la lista HTML con id="resultado"
+function mostrarSorteado(texto) {
+    let lista = document.getElementById("resultado");
+    lista.innerHTML = `<li>${texto}</li>`; // remplazamos cualquier contenido anterior
+}
+
+// Limpia el área de resultado (id="resultado")
+function limpiarResultado() {
+    document.getElementById("resultado").innerHTML = "";
+}
