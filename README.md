@@ -82,7 +82,7 @@ Simplemente accede al siguiente enlace desde cualquier navegador web:
 
 [🚀 Ver en GitHub](https://DavidArone/challenge-amigo-secreto)  
 
-[🌐 Ver en Vercel]  
+[🌐 Ver en Vercel](https://challenge-amigo-secreto-ivory-seven.vercel.app/)
 
 # 🔗 Enlaces al juego: 
 GitHub
@@ -91,7 +91,7 @@ https://DavidArone/challenge-amigo-secreto
 
 Vercel
 
-
+https://challenge-amigo-secreto-ivory-seven.vercel.app/
 
 ¡Y listo! Puedes empezar a agregar nombres y realizar sorteos de inmediato.
 
