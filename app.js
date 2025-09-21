@@ -126,3 +126,16 @@ function mostrarSorteado(texto) {
 function limpiarResultado() {
     document.getElementById("resultado").innerHTML = "";
 }
+
+// Reinicia todo el juego:
+// - Vacía las listas
+// - Limpia la pantalla
+// - Resetea el input
+function reiniciarJuego() {
+    amigos = [];
+    amigosRestantes = [];
+    document.getElementById("listaAmigos").innerHTML = "";
+    limpiarResultado();
+    document.getElementById("txtAmigo").value = "";
+    document.getElementById("txtAmigo").focus();
+}
