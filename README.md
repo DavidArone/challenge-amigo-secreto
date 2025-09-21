@@ -2,7 +2,7 @@
 
 ## Juego de Sorteo de Nombres
 
-![Inicio del juego](https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/blob/main/assest-readme/readmepng-1.png)
+![Inicio del juego](https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/refs/heads/main/assest-readme/readmepng-1.png)
 
 
 🎯 **Descripción**
@@ -23,9 +23,9 @@ Los usuarios pueden:
 - Validación de entrada:
  No permite nombres vacíos.
  Cada nombre se guarda en una lista.
-![No permite nombres vacíos](https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/blob/main/assest-readme/readmepng-2.png)
+![No permite nombres vacíos](https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/refs/heads/main/assest-readme/readmepng-2.png)
 - Visualización en lista: Muestra cada nombre.
-![Muestra cada nombre](https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/blob/main/assest-readme/readmepng-3.png)
+![Muestra cada nombre](https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/refs/heads/main/assest-readme/readmepng-3.png)
 
 
 # 2. Realizar Sorteo
@@ -34,17 +34,17 @@ Los usuarios pueden:
  Solo elige entre nombres que no hayan estado sorteados.
 - Mensajes de resultado: 
  Muestra el nombre ganador.
-![Muestra el nombre ganador](https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/blob/main/assest-readme/readmepng-4.png)
+![Muestra el nombre ganador](https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/refs/heads/main/assest-readme/readmepng-4.png)
 
  Si todos los nombres ya alcanzaron el máximo, muestra:
  🎉"Todos los amigos ya fueron sorteados. El juego se reiniciara.".🎉
- ![Todos los amigos ya fueron sorteados. El juego se reiniciara.](https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/blob/main/assest-readme/readmepng-5.png)
+ ![Todos los amigos ya fueron sorteados. El juego se reiniciara.](https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/refs/heads/main/assest-readme/readmepng-5.png)
 
 ### 3. Reiniciar Juego
 - Limpia toda la información:
   Vacía la lista de nombres.
   Borra los campos de entrada.
-![ Limpia toda la información](https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/blob/main/assest-readme/readmepng-1.png)
+![ Limpia toda la información](https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/refs/heads/main/assest-readme/readmepng-1.png)
 
 ## 🛠️ Tecnologías Usadas
 - [HTML5](https://github.com/DavidArone/challenge-amigo-secreto/blob/main/index.html) → Estructura de la página.
@@ -72,7 +72,7 @@ Los usuarios pueden:
 
 # 🎨 Vista Previa
 
-![Vista previa del sorteo](https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/blob/main/assest-readme/readmepng-1.png)
+![Vista previa del sorteo](https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/refs/heads/main/assest-readme/readmepng-1.png)
 
 🧩 Instalación
 No necesitas instalar nada para comenzar a jugar. 
@@ -87,7 +87,7 @@ Simplemente accede al siguiente enlace desde cualquier navegador web:
 # 🔗 Enlaces al juego: 
 GitHub
 
-https://DavidArone/challenge-amigo-secreto
+https://davidarone.github.io/challenge-amigo-secreto/
 
 Vercel
 
@@ -98,7 +98,7 @@ https://challenge-amigo-secreto-ivory-seven.vercel.app/
 # 🤝 Contribuir
 ¡Claro que sí! Si deseas contribuir a este proyecto, puedes hacerlo mediante:
 
-- [GitHub](https://github.com/DavidArone).
+- [GitHub](https://davidarone.github.io/challenge-amigo-secreto/).
 - Contactándome directamente en:
 - [LinkedIn](https://www.linkedin.com/in/david-arone-chuque/).
 
@@ -113,3 +113,19 @@ Lo puedes mejorar o configurar.
 [github.com/DavidArone/challenge-amigo-secreto](https://github.com/DavidArone/challenge-amigo-secreto)
 
 ✨ ¡Diviértete sorteando nombres de manera justa y personalizable! ✨
+
+// Link de Imagenes
+https://github.com/DavidArone/challenge-amigo-secreto/blob/main/assest-readme/readmepng-1.png?raw=true
+https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/refs/heads/main/assest-readme/readmepng-1.png
+
+https://github.com/DavidArone/challenge-amigo-secreto/blob/main/assest-readme/readmepng-2.png?raw=true
+https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/refs/heads/main/assest-readme/readmepng-2.png
+
+https://github.com/DavidArone/challenge-amigo-secreto/blob/main/assest-readme/readmepng-3.png?raw=true
+https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/refs/heads/main/assest-readme/readmepng-3.png
+
+https://github.com/DavidArone/challenge-amigo-secreto/blob/main/assest-readme/readmepng-4.png?raw=true
+https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/refs/heads/main/assest-readme/readmepng-4.png
+
+https://github.com/DavidArone/challenge-amigo-secreto/blob/main/assest-readme/readmepng-5.png?raw=true
+https://raw.githubusercontent.com/DavidArone/challenge-amigo-secreto/refs/heads/main/assest-readme/readmepng-5.png
