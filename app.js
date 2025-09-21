@@ -84,3 +84,16 @@ function darFormatoAmigo(amigo) {
     amigo = amigo.trim(); // eliminamos espacios extra al inicio y al final
     return amigo[0].toUpperCase() + amigo.substring(1); // primera letra mayúscula + resto igual
 }
+
+// Verifica que el nombre no esté vacío (solo espacios también cuenta como vacío)
+function validarNombreAmigo(amigo) {
+    return amigo.trim() !== "";
+}
+
+// Verifica que el nombre no esté ya registrado en la lista principal
+function validarNombreUnico(amigo) {
+    return !amigos.includes(amigo);
+}
+// ===============================
+// Fin funciones de validación
+// ===============================
