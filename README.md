@@ -80,14 +80,14 @@ Simplemente accede al siguiente enlace desde cualquier navegador web:
 
 # 🔗 Accesos Directos
 
-[🚀 Ver en GitHub](https://github.com/DavidArone/challenge-amigo-secreto)  
+[🚀 Ver en GitHub](https://DavidArone/challenge-amigo-secreto)  
 
 [🌐 Ver en Vercel]  
 
 # 🔗 Enlaces al juego: 
 GitHub
 
-https://github.com/DavidArone/challenge-amigo-secreto
+https://DavidArone/challenge-amigo-secreto
 
 Vercel
 
